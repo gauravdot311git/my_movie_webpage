@@ -1,0 +1,147 @@
+img {
+    /* max-width:100%; */
+    width:100%;
+    height: 250px;;
+}
+
+/* show button */
+.show{
+    background-color: #607d8b42;
+    color: white;
+    border: 2px solid lightcyan;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: cursive;
+    padding: 5px;
+    margin: 2PX;
+    box-shadow: 2px 2px 5px  #c9f5fb;
+}
+
+.forth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* border: whites2px solid; */
+    /* box-shadow: 2px 2px 5px  #c9f5fb; */
+}
+
+p{
+    background-color: #607d8b00;
+    font-family: cursive;
+    color: white;
+}
+/* add buttons section */
+.add{
+    background-color: #607d8b42;
+    color: white;
+    border: 2px solid lightcyan;
+    border-radius: 10px;
+    display: inline;
+    margin: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 5px;
+}
+
+/* movies card*/
+.card1{
+    border: 2px solid lightcyan;
+    background-color: #607d8b00;
+    width: 415px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    padding: 5px;
+    color: white;
+    box-shadow: 2px 2px 4px  #c9f5fb;
+    display: inline;
+}
+
+/* delete button */
+.del{
+    background-color: #607d8b42;
+    color: white;
+    border: 1px solid lightcyan;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 2px;
+    margin: 2PX;
+    box-shadow: 1px 1px 2px  #c9f5fb;
+}
+
+/* starting info-before show more */
+.card2{
+    border: 2px solid lightcyan;
+    background-color: #607d8b00;
+    font-family: cursive;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* play/pause-after show more */
+.card3{
+    /* border: 2px solid white;
+    background-color: #607d8b00; */
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: cursive;
+    color: wheat;
+}
+
+.Ap1{
+    display: flex;
+    /* border: 5px black ridge; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction:column;
+}
+
+
+
+.first{
+    width: 100%;
+    /* border: 5px blue ridge; */
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 26px;
+    padding: -5px;
+}
+
+.sec{
+    display: flex;
+    /* border: 1px solid teal; */
+    width: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.third{
+    display: flex;
+    /* border: 1px solid teal; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr{
+    font-weight: bold;
+}
+
+.play{
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+}
